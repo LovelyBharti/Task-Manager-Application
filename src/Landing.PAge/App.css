@@ -1,0 +1,38 @@
+.parent-container {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .parent-container h1 {
+    color: #31a499;
+    font-size: 50px;
+    border-bottom: 2px dashed #565f66;
+    width: max-content;
+  }
+  
+  .parent-container p b {
+    color: #2f292b;
+  }
+  .parent-container p {
+    font-size: 30px;
+  }
+  
+  .brand-container {
+    border-left: 10px solid #443947;
+    padding-left: 20px;
+  }
+  
+  .parent-container .row {
+    border: 10px solid black;
+    transform: rotate(12deg);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .parent-container .row {
+      border: none;
+      transform: rotate(0deg);
+    }
+    .parent-container .row img {
+      width: 500px;
+    }
+  }
